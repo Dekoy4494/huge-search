@@ -1,0 +1,84 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          color: #c2c2c2;
+
+}
+
+body{
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+::placeholder{
+    font-size: 90px;
+    color: #c2c2c2;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+}
+form{
+    
+    height: 120px;
+    display: inline-block;
+    font-size: 0;
+    color: #c2c2c2;
+
+}
+.hs-form{
+    padding: 50px 150px 0 150px;
+    
+}
+button{
+    width: 120px;
+    height: 120px;
+    border: none;
+    padding: 0;
+    background-color: white;
+}
+input{
+    height: 120px;
+    display: inline-block;
+    border: none;
+    padding: 0;
+    
+}
+.bio{
+    padding: 0;
+}
+.container{
+    padding: 50px 150px 0 150px;
+    
+    list-style: none;
+    font-size: 0;
+}
+.container li{
+ display: inline-block;
+ font-size: 16px;
+ width: 33.3%;
+ height: 80px;
+ vertical-align: middle;
+ padding: 10px 25px 5px 25px;
+}
+
+.hs-list1,
+.hs-list2,
+.hs-list3{
+    width: 33.3%;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.hs-people img{
+    max-width:100%;
+    display: inline-block;
+    border-radius: 50%;
+    
+}
+
+ 
+ 
+ 
