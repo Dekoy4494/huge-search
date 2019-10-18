@@ -15,70 +15,110 @@ body{
     margin: 0;
 }
 ::placeholder{
-    font-size: 90px;
+    font-size: 120px;
     color: #c2c2c2;
-    font-weight: 900;
     font-family: Arial, sans-serif;
 }
 form{
+    width: 1200px;
     
-    height: 120px;
     display: inline-block;
-    font-size: 0;
+    
     color: #c2c2c2;
 
 }
 .hs-form{
-    padding: 50px 150px 0 150px;
-    
+    padding: 50px 0px 0 0px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 button{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 30px;
     border: none;
     padding: 0;
     background-color: white;
+    outline: none;
+    opacity: 0.4;
 }
 input{
-    height: 120px;
+    font-size: 120px;
     display: inline-block;
     border: none;
-    padding: 0;
+    max-width: 1070px;
+    outline: none;
+    
     
 }
 .bio{
     padding: 0;
+    width: 100%;
 }
 .container{
-    padding: 50px 150px 0 150px;
-    
+    max-width: 1200px;
+    padding: 50px 0px 100px 0px;
+    margin: 0 auto;
     list-style: none;
     font-size: 0;
 }
 .container li{
  display: inline-block;
- font-size: 16px;
+ font-size: 14px;
  width: 33.3%;
  height: 80px;
- vertical-align: middle;
- padding: 10px 25px 5px 25px;
+ transition: filter .3s;
+ margin: 5px 0px 0px 0px;
 }
 
-.hs-list1,
-.hs-list2,
-.hs-list3{
+.bio .hs-list1,
+.bio .hs-list2,
+.bio .hs-list3{
     width: 33.3%;
     display: inline-block;
     text-transform: uppercase;
+    margin-bottom: -40px;
+    font-size: 18px;
 }
 
-.hs-people img{
+ img{
     max-width:100%;
     display: inline-block;
+    position: relative;
+    top: 13px;
+    margin-left: 10px;
+    
+}
+.hs-people img{
     border-radius: 50%;
+    max-width:100%;
+    display: inline-block;
+    position: relative;
+    top: 13px;
+}
+
+.hs-people {
+    background: rgba(118,117,128,0.05);
+}
+
+.hs-icons{
+    padding-left: 70px;
+    background-color: rgba(118,117,128,0.05);
     
 }
 
+.hs-list2,
+.hs-list3{
+    padding-left: 70px;
+}
  
- 
+.bio:hover li{
+    filter: blur(3px) grayscale(0.8)
+}
+
+.bio li:hover{
+    filter:none;
+   background-color: rgba(118,117,128,0.1);
+}
  
